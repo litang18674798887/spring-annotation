@@ -74,7 +74,7 @@ import org.springframework.context.annotation.Configuration;
  *              2.如果没有this.applicationEventMulticaster = new SimpleApplicationEventMulticaster(beanFactory);
  *                  并且加入到容器中，我们可以在其他组件派发事件，自动注册applicationEventMulticaster
  *
- *
+ *·
  *       【容器中有哪些监听器】
  *          1.容器创建对象 refresh();
  *          2.registerListeners();
